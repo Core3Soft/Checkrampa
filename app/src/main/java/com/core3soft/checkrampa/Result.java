@@ -35,6 +35,28 @@ import java.math.BigDecimal;
 public class Result extends Activity {
     // Variables
     String Height, Length;
+    View.OnClickListener buttonHandler = new View.OnClickListener() {
+        @Override
+        public void onClick(View v) {
+            // This method is used to search the LENGTH recomended to the height of the ramp
+            // Only called if the ramp is INCORRECT
+            // Called on click in button 'corrigir'
+            Double biglength, length;
+            if (Double.parseDouble(Height) >= 100) {
+                biglength = (Double.parseDouble(Height) * 100) / 5; // Inclination: 5%
+            } else if (Double.parseDouble(Height) > 80 && Double.parseDouble(Height) < 100) {
+                biglength = (Double.parseDouble(Height) * 100) / 6.25; // Inclination: 6.25%
+            } else biglength = (Double.parseDouble(Height) * 100) / 8.33; // Inclination: 8,33%
+
+            // set scale of 'biglength' to 2 (e.g: 12,99 cm)
+            BigDecimal decimal = new BigDecimal(biglength);
+            decimal = decimal.setScale(2, BigDecimal.ROUND_HALF_UP);
+            decimal = BigDecimal.valueOf(decimal.doubleValue());
+            // decimal -> length
+            length = decimal.doubleValue();
+            calculate(Double.parseDouble(Height), length);
+        }
+    };
     Double Inclination;
 
     @Override
@@ -54,23 +76,9 @@ public class Result extends Activity {
     }
 
     @Override
-    public void onBackPressed(){ finish(); }
-
-    View.OnClickListener buttonHandler = new View.OnClickListener() {
-        @Override
-        public void onClick(View v) {
-            // This method is used to search the LENGTH recomend to the height of the ramp
-            // Only called if the ramp is INCORRECT
-            // Called on click in button 'corrigir'
-            Double length;
-            if(Double.parseDouble(Height) >= 100){
-                length = (Double.parseDouble(Height) * 100) / 5; // Inclination: 5%
-            } else if(Double.parseDouble(Height) > 80 && Double.parseDouble(Height) < 100){
-                length = (Double.parseDouble(Height) * 100) / 6.25; // Inclination: 6.25%
-            } else length = (Double.parseDouble(Height) * 100) / 8.33; // Inclination: 8,33%
-            calculate(Double.parseDouble(Height), length);
-        }
-    };
+    public void onBackPressed() {
+        finish();
+    }
 
     public void calculate(Double height, Double length){
         // calculate inclination
