@@ -10,11 +10,8 @@ Para que o aplicativo fosse desenvolvido, foi necessário consultar as normas da
 
 Dados necessários
 ------------
-Altura: acima de 100 centímetros ou 1 metro
-  Inclinação: 5% Máximo
+Altura: acima de 100 centímetros ou 1 metro (Inclinação: 5% Máximo);
   
-Altura: de 80 centímetros à 100 centímetros ou 0,8 metros à 1,0 metros
-  Inclinação: 6,25% Máximo
+Altura: de 80 centímetros à 100 centímetros ou 0,8 metros à 1,0 metros (Inclinação: 6,25% Máximo);
   
-Altura: até 80 centímetros 
-  Inclinação: 8,33%
+Altura: até 80 centímetros (Inclinação: 8,33% Máximo).
