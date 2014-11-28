@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="AppTheme" parent="android:Theme.Holo">
+        <item name="android:actionBarStyle">@style/MyHoloBar</item>
+        <item name="android:popupMenuStyle">@style/MyPopup</item>
+    </style>
+
+    <!-- ActionBar Styling -->
+    <style name="MyHoloBar" parent="@android:style/Widget.Holo.ActionBar">
+        <item name="android:background">#FF3753C3</item>
+    </style>
+    <!-- PopupMenu Styling -->
+    <style name="MyPopup" parent="@android:style/Widget.Holo.PopupMenu">
+        <item name="android:popupBackground">#FF3753C3</item>
+    </style>
+</resources>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="AppTheme" parent="android:Theme.Holo.Light.DarkActionBar">
+        <item name="android:actionBarStyle">@style/MyHoloBar</item>
+        <!--<item name="android:popupMenuStyle">@style/MyPopup</item>
+        <item name="android:textAppearanceLargePopupMenu">@style/MyPopText</item>
+        <item name="android:textAppearanceSmallPopupMenu">@style/MyPopText</item>-->
+    </style>
+
+    <!-- ActionBar Styling -->
+    <style name="MyHoloBar" parent="@android:style/Widget.Holo.ActionBar">
+        <item name="android:background">#FF3753C3</item>
+        <item name="android:titleTextStyle">@style/MyHoloText</item>
+        <item name="android:subtitleTextStyle">@style/MyHoloSubText</item>
+
+    </style>
+
+    <style name="MyHoloText" parent="@android:style/TextAppearance.Holo.Widget.ActionBar.Title">
+        <item name="android:textColor">#FFF</item>
+    </style>
+
+    <style name="MyHoloSubText" parent="@android:style/TextAppearance.Holo.Widget.ActionBar.Subtitle">
+        <item name="android:textColor">#fff</item>
+    </style>
+
+    <!-- PopupMenu Styling -
+    <style name="MyPopup" parent="@android:style/Widget.Holo.PopupMenu">
+        <item name="android:popupBackground">#FF3753C3</item>
+    </style>
+
+    <style name="MyPopText" parent="@android:style/TextAppearance.Holo.Widget.PopupMenu">
+        <item name="android:textColor">#fff</item>
+    </style>-->
+</resources>

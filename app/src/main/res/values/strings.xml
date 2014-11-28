@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- ~ app info -->
+    <string name="app_name">Check rampa</string>
+    <string name="app_dev">Core3Soft</string>
+
+    <!-- menu_main config -->
+    <string name="action_about">Sobre</string>
+    <string name="action_exit">Sair</string>
+
+    <!-- main layout strings -->
+        <!-- Textviews strings -->
+        <string name="text_fillform">PREENCHA OS CAMPOS ABAIXO</string>
+        <string name="text_copyrigth">COPYRIGTH &#169; 2014</string>
+
+        <!-- Hints strings -->
+        <string name="hint_height">ALTURA</string>
+        <string name="hint_length">COMPRIMENTO</string>
+
+        <!-- Checkbox strings -->
+        <string name="box_savedata">SALVAR RAMPA</string>
+
+        <!-- Button strings -->
+        <string name="button_checkramp">ANALISAR</string>
+        <string name="button_seeramps">VER RAMPAS</string>
+
+    <!-- result layout strings -->
+        <!-- Textviews strings -->
+        <string name="text_yourresult">RESULTADO</string>
+        <string name="ramp_height">ALTURA </string>
+        <string name="ramp_length">COMPRIMENTO </string>
+        <string name="ramp_inclination">INCLINAÇÃO </string>
+
+        <!-- Buttons -->
+        <string name="button_corrigir">CORRIGIR</string>
+        <!-- ContentDescriptions -->
+        <string name="description_ramp">Ramp image.</string>
+
+    <!-- about layout strings -->
+        <string name="about">Este é um aplicativo de código aberto.\nVocê poderá contribuir com o código, todavia terá que respeitar os direitos autoriais.</string>
+        <string name="rigths">LUCAS CAVALCANTE &#169;</string>
+        <string name="version">Versão 2.3.0</string>
+
+</resources>
