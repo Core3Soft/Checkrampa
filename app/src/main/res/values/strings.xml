@@ -3,7 +3,7 @@
 
     <!-- ~ app info -->
     <string name="app_name">Check rampa</string>
-    <string name="app_dev">Core3Soft</string>
+    <string name="app_dev">Core3 Software</string>
 
     <!-- menu_main config -->
     <string name="action_about">Sobre</string>
@@ -12,18 +12,14 @@
     <!-- main layout strings -->
         <!-- Textviews strings -->
         <string name="text_fillform">PREENCHA OS CAMPOS ABAIXO</string>
-        <string name="text_copyrigth">COPYRIGTH &#169; 2014</string>
+        <string name="text_copyrigth">COPYRIGHT &#169; 2014</string>
 
         <!-- Hints strings -->
         <string name="hint_height">ALTURA</string>
         <string name="hint_length">COMPRIMENTO</string>
 
-        <!-- Checkbox strings -->
-        <string name="box_savedata">SALVAR RAMPA</string>
-
         <!-- Button strings -->
         <string name="button_checkramp">ANALISAR</string>
-        <string name="button_seeramps">VER RAMPAS</string>
 
     <!-- result layout strings -->
         <!-- Textviews strings -->
